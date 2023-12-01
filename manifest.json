@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "Etsi kertauspäiväkurssit MPK:n koulutushausta",
+  "description": "Made by: Oskari Tervo, 2023",
+  "content_scripts": [
+    {
+      "matches": ["*://*.koulutuskalenteri.mpk.fi/Koulutuskalenteri*"],
+      "js": ["main.js"]
+    }
+  ]
+}
